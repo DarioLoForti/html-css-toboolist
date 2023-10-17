@@ -52,7 +52,7 @@ header{
 }
 .button-section{
     background-color: white;
-    color: gray;
+    color: rgb(212, 211, 211);
     padding: 5px;
     border-radius: 10px;
     border-color:gray;
@@ -61,6 +61,8 @@ header{
 ul{
     line-height: 3;
 }
+
+
 .editorial{
     background-color:cornflowerblue;
     border-radius: 10px;
