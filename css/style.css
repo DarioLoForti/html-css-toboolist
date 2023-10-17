@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: rgb(240, 238, 238)
+    background-color: rgba(240, 238, 238, 0.6)
 }
 header{
     background-color: white;
-    font-family: sans-serif;
 }
 .logo{
     height: 40px;
@@ -26,7 +26,6 @@ header{
     height: 800px;
     margin-top: 50px;
     margin-left: 200px;
-    border: 1px solid black;
 }
 .sub-container{
     background-color: white;
@@ -34,7 +33,8 @@ header{
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 10px;
-    margin: 1px;
+    margin: 2px;
+    line-height: 1.6;
 }
 .button-task{
     background-color: cornflowerblue;
@@ -50,3 +50,46 @@ header{
     border-radius: 10px;
     border-color:gray;
 }
+
+ul{
+    line-height: 3;
+}
+#editorial{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+#q1-goals{
+    background-color:rgb(179, 73, 179);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+#recruiting{
+    background-color:rgba(0, 128, 0, 0.507);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+#mobile{
+    background-color:rgb(216, 140, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+#website{
+    background-color:rgba(209, 0, 216, 0.452);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+#sales{
+    background-color:rgb(109, 226, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
