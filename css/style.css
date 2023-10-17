@@ -22,10 +22,9 @@ header{
     line-height: 2;
 }
 .container{
-    width: 70%;
-    height: 800px;
-    margin-top: 50px;
-    margin-left: 200px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 .sub-container{
     background-color: white;
@@ -33,9 +32,17 @@ header{
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 10px;
-    margin: 2px;
-    line-height: 1.6;
+    margin: 2px; 
 }
+.sub-container2{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 2px; 
+}
+
 .button-task{
     background-color: cornflowerblue;
     color: white;
@@ -54,7 +61,7 @@ header{
 ul{
     line-height: 3;
 }
-#editorial{
+.editorial{
     background-color:cornflowerblue;
     border-radius: 10px;
     padding: 5px 10px;
