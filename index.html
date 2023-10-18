@@ -8,17 +8,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <style>
-        ul.check{
-            list-style-image: url(./img/greencheck.png);
-        }
-        ul.cross{
-            list-style-image: url(./img/redcross.png);
-        }
-        ol.freccia{
-            list-style-image: url(./img/Freccia.png);
-        }
-    </style>
 </head>
 <body>
     <!-- header -->
@@ -42,43 +31,54 @@
             </div >
             <!-- seconda sezione -->
             <div class="sub-container2">
-                <ol class="freccia">
-                    <li> <strong>New Task</strong>
-                        <ul class="check">
-                            <li>Quarterly Newsletter <span class="editorial">Editorial</span></li>
+                <ul>
+                    <li> 
+                        <strong>New Task</strong>
+                        <ul>
+                            <li>
+                                <span class="circle done">&check;</span>Quarterly Newsletter <span class="evid editorial">Editorial</span>
+                            </li>
                         </ul>
                     </li>
                     <li> <strong>Today </strong>
                         <ul class="check">
-                            <li>Recruiting blog post <span class="editorial">Editorial</span></li>
+                            <li>
+                                <span class="circle done">&check;</span>Recruiting blog post <span class="evid editorial">Editorial</span></li>
                         </ul>
                         <ul class="check">
-                            <li>Mobile app luaunch <span id="q1-goals">Q1 Goals</span></li>
+                            <li>
+                                <span class="circle done">&check;</span>Mobile app luaunch <span class="evid q1-goals">Q1 Goals</span></li>
                         </ul>
                         <ul class="cross">
-                            <li>Interview John H. <span id="recruiting">Recruiting</span></li>
+                            <li>
+                                <span class="circle faild">&cross;</span>Interview John H. <span class="evid recruiting">Recruiting</span></li>
                         </ul>
                         <ul class="check">
-                            <li>Summit update to mobile storefronts <span id="mobile">Mobile</span>
+                            <li>
+                                <span class="circle done">&check;</span>Summit update to mobile storefronts <span class="evid mobile">Mobile</span>
                             </li>
                         </ul>
                     </li>
                     <li> <strong>Upcoming</strong>
                         <ul class="cross">
-                            <li>Schedule meeting with Alex</li>
+                            <li>
+                                <span class="circle faild">&cross;</span>Schedule meeting with Alex</li>
                         </ul>
                         <ul class="check">
-                            <li>Homepage refresh <span id="website">Website</span></li>
+                            <li>
+                                <span class="circle done">&check;</span>Homepage refresh <span class="evid website">Website</span></li>
                         </ul>
                         <ul class="check">
-                            <li>Onboard new Sales team members <span id="sales">Sales</span></li>
+                            <li>
+                                <span class="circle done">&check;</span>Onboard new Sales team members <span class="evid sales">Sales</span></li>
                         </ul>
                         <ul class="check">
-                            <li>Review editorial calendar <span class="editorial">Editorial</span>
+                            <li>
+                                <span class="circle done">&check;</span>Review editorial calendar <span class="evid editorial">Editorial</span>
                             </li>
                         </ul>
                     </li>
-                </ol>
+                </ul>
             </div>
         </main>
     </div>

@@ -59,44 +59,53 @@ header{
 }
 
 ul{
-    line-height: 3;
+    list-style-type: none;
+}
+li{
+    line-height: 2.5;
+}
+
+.circle{
+    padding: 5px 7px;
+    font-size: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.done{
+    border: 1px solid green;
+    color: green;
+}
+.faild{
+    border: 1px solid red;
+    color: red;
 }
 
 
 .editorial{
     background-color:cornflowerblue;
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
 }
 
-#q1-goals{
+.q1-goals{
     background-color:rgb(179, 73, 179);
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
 }
 
-#recruiting{
+.recruiting{
     background-color:rgba(0, 128, 0, 0.507);
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
 }
-#mobile{
+
+.mobile{
     background-color:rgb(216, 140, 0);
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
 }
-#website{
+
+.website{
     background-color:rgba(209, 0, 216, 0.452);
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
 }
-#sales{
+
+.sales{
     background-color:rgb(109, 226, 0);
+}
+
+.evid{
     border-radius: 10px;
     padding: 5px 10px;
     color: white;
